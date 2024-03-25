@@ -1,0 +1,64 @@
+.dashboard-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+  .dashboard-container h1{
+    margin-bottom: 20px;
+  }
+  
+  .paths {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+  }
+  
+  .path {
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #551d5e; 
+
+  }
+  
+  .path.active {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .interns-list {
+    overflow-x: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f0f0f0;
+  }
+  
+  tbody tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+  img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
